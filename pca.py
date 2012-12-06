@@ -181,14 +181,6 @@ if __name__ == "__main__":
     print "~ back again:", back
     print "max |back - x|: %.2g" % np.linalg.norm( back - x, np.inf )
 
-def pca(df, axis=0, k):
-"""
-Compute a k-dimensional embedding of matrix mat using PCA
-Arguments:
-df: a two-dimensional pandas DataFrame with columns userid, itemid and rating
-axis: which axis to treat as examples (0 or 1)
-k: number of dimensions in embedding
-Returns:
-numpy matrix of shape (m,k) where m is the number of unique userids in df when axis=0
-and m is the number of unique itemids in df when axis=1
-"""
+
+
+
